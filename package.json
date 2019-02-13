@@ -1,0 +1,29 @@
+{
+  "name": "general",
+  "version": "1.0.0",
+  "description": "General Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "test index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tekin7707/general_nodejs"
+  },
+  "keywords": [
+    "lades"
+  ],
+  "author": "Mustafa Tekin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heroku/lades/issues"
+  },
+  "homepage": "https://github.com/heroku/lades#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jwt-simple": "^0.5.5",
+    "mongoose": "^5.4.1",
+    "nodemon": "^1.18.9"
+  }
+}

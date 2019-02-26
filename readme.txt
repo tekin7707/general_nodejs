@@ -7,7 +7,8 @@ npm install nodemon --save
 npm install mongoose --save
 npm install cors --save
 npm install jwt-simple --save
-
+npm install node-datetime
+npm install nodemailer
 -----
 node_modules klasörünü git e göndermez
 echo "node_modules" >> .gitignore
@@ -24,3 +25,8 @@ git config --global user.name "tekin7707"
 git add .
 git commit -m  "first"
 git push origin master
+
+
+
+Register 
+--------

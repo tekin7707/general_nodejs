@@ -21,7 +21,7 @@ express()
   .listen(PORT, () => console.log('Listening on %s', PORT))
 
 
-  mongoose.connect(uristring, function (err, res) {
+  mongoose.connect(uristring, { useNewUrlParser: true }, function (err, res) {
     if (err) {
       console.log('ERROR connecting to: ' + uristring + '. ' + err);
     } else {

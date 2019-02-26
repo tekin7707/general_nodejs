@@ -7,7 +7,8 @@ var userModel = new Schema({
     firstName: String,
     lastName: String,
     token:String,
-    state:Number//{(-1) Deleted user (0)-non activated new (1)-activated 2,3,4,5 statu 9- (10) Administrator }
+    status:Number,//{(-1) Deleted user (0)-non activated new (1)-activated 2,3,4,5 statu 9- (10) Administrator }
+    activateCode:String
 });
 
 module.exports = mongoose.model('User',userModel);
